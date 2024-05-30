@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00338d;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .main-content {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .background-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .contact-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .contact-whatsapp img {
+    height: 50px;
+    width: 50px;
+  }
+  
